@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-black-geometric-figure-education-math-formula-background-picture-image_1457820.jpg");
+
+    background-size: 50% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.row button{
+    height: 60px;
+    width: 60px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+.row button:hover{
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+}
+
+button.is{
+    width: 128px;
+}
+
+.input input{
+    height: 50px;
+    width: 263px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    justify-content: flex-end;
+    text-align: right;
+}
+.input{
+    margin-bottom: 10px;
+}
